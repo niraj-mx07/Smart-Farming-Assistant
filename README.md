@@ -25,6 +25,7 @@ Install Dependencies
 pip install -r requirements.txt
 
 Usage 🌐
+
 Navigate through the platform using the navigation bar.
 Use the language selector to switch between English and Hindi.
 Explore various sections like Market, Weather, Schemes, Equipment, and Storage.
