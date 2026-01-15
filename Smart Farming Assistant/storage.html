@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage Solutions - AgriConnect</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: "Poppins", sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+ 
+        /* Storage Section */
+        .storage-section h2 {
+    font-size: 2rem;
+    padding-left: 50px;
+     /* Reduced from 2.2rem */
+}
+
+.option-card h3 {
+    font-size: 1.3rem; /* Reduced from 1.4rem */
+}
+
+.option-card p {
+    font-size: 0.95rem; /* Reduced from 1rem */
+}
+
+.facility-list li {
+    font-size: 1.1rem; /* Reduced from 1.2rem */
+}
+
+.footer-section h4 {
+    font-size: 1.1rem; /* Reduced from 1.2rem */
+}
+
+.footer-section p, .footer-section a {
+    font-size: 0.95rem; /* Reduced from 1rem */
+}
+
+        .option-card {
+            background: #fff;
+            padding: 1.8rem;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .option-card:hover {
+            transform: translateY(-5px);
+            background: #e8ffe8;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .option-card h3 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #218838;
+            margin-bottom: 0.5rem;
+        }
+
+        .option-card p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        /* Facility List */
+        .facility-box {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .facility-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .facility-list li {
+            margin-bottom: 0.8rem;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        .facility-list li i {
+            color: #28a745;
+            margin-right: 0.5rem;
+        }
+
+        /* Footer */
+        .main-footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .footer-section h4 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section p, .footer-section a {
+            font-size: 1rem;
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer-section a:hover {
+            color: #28a745;
+        }
+
+        /* Fade-in Animation */
+        .animated {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
+        }
+
+        .animated.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo-container">
+                <h1>AgriConnect</h1>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="market.html"><i class="fas fa-chart-line"></i> Market</a></li>
+                    <li><a href="schemes.html"><i class="fas fa-file-invoice"></i> Schemes</a></li>
+                    <li><a href="weather.html"><i class="fas fa-cloud-sun"></i> Weather</a></li>
+                    <li><a href="storage.html"><i class="fas fa-warehouse"></i> Storage</a></li>
+                    <li><a href="equipment.html"><i class="fas fa-tractor"></i> Equipment</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="storage-section animated">
+            <h2>Post-Harvest Storage Solutions</h2>
+            <div class="storage-options">
+                <div class="option-card">
+                    <h3><i class="fas fa-snowflake"></i> Cold Storage</h3>
+                    <a href="http://www.agritech.tnau.ac.in/amis/warehouse_cold_storeage.html">Learn More</a>
+                    <p>Ideal for perishable goods like fruits and vegetables.</p>
+                </div>
+                <div class="option-card">
+                    <h3><i class="fas fa-sun"></i> Solar Drying</h3>
+                    <a href="https://www.rsfp.in/solar-drying-technology-farmers.php">Learn More</a>
+                    <p>Eco-friendly drying method for grains and spices.</p>
+                </div>
+                <div class="option-card">
+                    <h3><i class="fas fa-box"></i> Warehousing</h3>
+                    <a href="https://agriculture.vikaspedia.in/viewcontent/agriculture/post-harvest-technologies/technologies-for-agri-horti-crops/post-harvest-management-of-pulses/storage?lgn=en">Learn More</a>
+                    <p>Bulk storage for grains, pulses, and farm produce.</p>
+                </div>
+            </div>
+
+            <h2>Government Subsidies</h2>
+            <p>Subsidies available for building storage facilities.</p>
+
+            <h2>Nearby Storage Facilities</h2>
+            <div class="facility-box">
+                <ul class="facility-list">
+                    <li><i class="fas fa-warehouse"></i> Facility 1 - Contact: 1234567890</li>
+                    <li><i class="fas fa-warehouse"></i> Facility 2 - Contact: 0987654321</li>
+                    <li><i class="fas fa-warehouse"></i> Facility 3 - Contact: 1122334455</li>
+                </ul>
+            </div>
+            <select id="language-selector" class="language-selector">
+                <option value="en">English</option>
+                <option value="hi">हिन्दी</option>
+            </select>
+            <h2 id="welcome-text">Welcome to AgriConnect</h2>
+            <p id="description-text">Empowering Indian Farmers with Digital Solutions</p>
+            <a href="market.html" id="market-prices">Market Prices</a>
+            <a href="weather.html" id="weather-update">Weather Update</a>
+            <a href="schemes.html" id="govt-schemes">Govt Schemes</a>
+            
+        </section>
+    </main>
+
+    <script>
+        // Animation on scroll
+        document.addEventListener("DOMContentLoaded", function () {
+            const animatedElements = document.querySelectorAll(".animated");
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("show");
+                    }
+                });
+            });
+
+            animatedElements.forEach(el => observer.observe(el));
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriConnect - Farmer's Digital Companion</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .hero {
+    background: url('assets/images/image1.jpg') no-repeat center center/cover;
+    padding: 3rem;
+    text-align: center;
+    color: white; /* Ensures text is visible */
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 100, 0, 0.5); /* Green framing overlay */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+.nav-list a {
+    transition: 0.3s;
+}
+.nav-list a:hover {
+    color: #28a745;
+    border-bottom: 2px solid #28a745;
+}
+.chatbot-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #28a745;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.chatbot-button:hover {
+    background: #218838;
+}
+.success-stories {
+    text-align: center;
+    padding: 20px;
+    background: #eef7ee;
+}
+.story {
+    padding: 10px;
+    border-left: 4px solid #28a745;
+    margin: 5px 0;
+}
+    </style>
+</head>
+<body>
+    <div class="chatbot-button">
+        <i class="fas fa-comments"></i>
+    </div>
+    
+    <!-- Header Section -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="assets/images/logo.png" alt="AgriConnect Logo" class="logo">
+                <h1>AgriConnect</h1>
+            </div>
+            
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="market.html" class="active"><i class="fas fa-chart-line"></i> Market</a></li>
+                    <li><a href="schemes.html"><i class="fas fa-file-invoice"></i> Schemes</a></li>
+                    <li><a href="weather.html"><i class="fas fa-cloud-sun"></i> Weather</a></li>
+                    <li><a href="storage.html"><i class="fas fa-warehouse"></i> Storage</a></li>
+                    <li><a href="equipment.html"><i class="fas fa-tractor"></i> Equipment</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Empowering Indian Farmers with Digital Solutions</h2>
+                <p>Real-time information, smart farming tools, and government schemes at your fingertips</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for crops, schemes, or equipment...">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Quick Access Grid -->
+        <section class="quick-access">
+            <h3>Quick Access</h3>
+            <div class="grid-container">
+                <a href="market.html" class="grid-card market">
+                    <i class="fas fa-rupee-sign"></i>
+                    <span>Market Prices</span>
+                </a>
+                <a href="weather.html" class="grid-card weather">
+                    <i class="fas fa-cloud-sun-rain"></i>
+                    <span>Weather Update</span>
+                </a>
+                <a href="schemes.html" class="grid-card schemes">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <span>Govt Schemes</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section class="news-section">
+            <h3>Latest Agricultural News</h3>
+            <div class="news-container" id="newsContainer">
+                <!-- Dynamic news content will be loaded here -->
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section">
+            <div class="about-content">
+                <h3>About AgriConnect</h3>
+                <p>We bridge the gap between technology and agriculture, providing farmers with real-time market data, weather forecasts, government schemes, and modern farming solutions.</p>
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <i class="fas fa-users"></i>
+                        <span>50,000+ Farmers Connected</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>15+ States Covered</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Success Stories Section Moved to the End -->
+        <section class="success-stories">
+            <h3>Success Stories</h3>
+            <div class="story">
+                <p>“With AgriConnect’s real-time market prices, I sold my crops at the best rates!”</p>
+                <span>- Rajesh, Maharashtra</span>
+            </div>
+            <div class="story">
+                <p>“AI disease detection saved my wheat crop from infection. Highly recommended!”</p>
+                <span>- Sunita, Punjab</span>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-section contact-info">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-phone"></i> 1800-123-4567</p>
+                <p><i class="fas fa-envelope"></i> support@agriconnect.in</p>
+            </div>
+            
+            <div class="footer-section social-links">
+                <h4>Follow Us</h4>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 AgriConnect. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/newsLoader.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Prices - AgriConnect</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .market-section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.market-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.market-table th, .market-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.market-table th {
+    background-color: var(--primary-green);
+    color: var(--white);
+}
+
+.market-table tr:hover {
+    background-color: var(--light-green);
+}
+
+.details-btn {
+    background-color: var(--accent-yellow);
+    color: #333;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.details-btn:hover {
+    background-color: #FFA000;
+}
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <!-- [Header content] -->
+            <div class="header-container">
+                <div class="logo-container">
+                    <img src="../assets/images/logo.png" alt="AgriConnect Logo" class="logo">
+                    <h1>AgriConnect</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="market.html"><i class="fas fa-chart-line"></i> Market</a></li>
+                        <li><a href="schemes.html"><i class="fas fa-file-invoice"></i> Schemes</a></li>
+                        <li><a href="weather.html"><i class="fas fa-cloud-sun"></i> Weather</a></li>
+                        <li><a href="storage.html"><i class="fas fa-warehouse"></i> Storage</a></li>
+                        <li><a href="equipment.html"><i class="fas fa-tractor"></i> Equipment</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="market-section">
+            <h2>Live Market Prices</h2>
+            <table class="market-table">
+                <thead>
+                    <tr>
+                        <th>Crop</th>
+                        <th>Price (₹/kg)</th>
+                        <th>Change</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody id="marketTableBody">
+                    <!-- Dynamic rows inserted here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-section contact-info">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-phone"></i> 1800-123-4567</p>
+                <p><i class="fas fa-envelope"></i> support@agriconnect.in</p>
+            </div>
+            <div class="footer-section social-links">
+                <h4>Follow Us</h4>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2023 AgriConnect. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+    <script src="../api/market.js"></script>
+</body>
+</html>

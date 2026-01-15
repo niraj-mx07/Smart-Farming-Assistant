@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipment Rental - AgriConnect</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .equipment-section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .equipment-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        .equipment-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+        }
+        .book-btn {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .book-btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="../assets/images/logo.png" alt="AgriConnect Logo" class="logo">
+                <h1>AgriConnect</h1>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="market.html"><i class="fas fa-chart-line"></i> Market</a></li>
+                    <li><a href="schemes.html"><i class="fas fa-file-invoice"></i> Schemes</a></li>
+                    <li><a href="weather.html"><i class="fas fa-cloud-sun"></i> Weather</a></li>
+                    <li><a href="storage.html"><i class="fas fa-warehouse"></i> Storage</a></li>
+                    <li><a href="equipment.html"><i class="fas fa-tractor"></i> Equipment</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="equipment-section">
+            <h2>Equipment Rental</h2>
+            <div class="equipment-list">
+                <div class="equipment-card">
+                    <h3>Tractor</h3>
+                    <p>Price: ₹5000/day</p>
+                    <p>Availability: In Stock</p>
+                    <button class="book-btn">Book Now</button>
+                </div>
+                <div class="equipment-card">
+                    <h3>Drone Sprayer</h3>
+                    <p>Price: ₹15000/day</p>
+                    <p>Availability: In Stock</p>
+                    <button class="book-btn">Book Now</button>
+                </div>
+                <div class="equipment-card">
+                    <h3>Soil Moisture Sensor</h3>
+                    <p>Price: ₹3000/day</p>
+                    <p>Availability: In Stock</p>
+                    <button class="book-btn">Book Now</button>
+                </div>
+                <div class="equipment-card">
+                    <h3>Automated Irrigation System</h3>
+                    <p>Price: ₹7000/day</p>
+                    <p>Availability: In Stock</p>
+                    <button class="book-btn">Book Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-section contact-info">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-phone"></i> 1800-123-4567</p>
+                <p><i class="fas fa-envelope"></i> support@agriconnect.in</p>
+            </div>
+            <div class="footer-section social-links">
+                <h4>Follow Us</h4>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2023 AgriConnect. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
