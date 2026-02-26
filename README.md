@@ -17,7 +17,7 @@ Indian farmers often face challenges such as:
 
 These issues reduce profitability and make farming decisions risky and inefficient.
 
----
+----
 
 ## 💡 Solution
 
