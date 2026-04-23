@@ -69,7 +69,7 @@ The platform is designed to be **simple, user-friendly, and accessible** to farm
 - Scalable design for future backend integration  
 - Practical real-world agricultural use case  
 
----
+----
 
 ## 🛠️ Technology Stack
 
