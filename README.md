@@ -1,4 +1,4 @@
-# 🌾 Smart Farming Assistant (AgriConnect)
+## 🌾 Smart Farming Assistant (AgriConnect)
 
 AgriConnect is a web-based platform designed to empower Indian farmers by providing real-time agricultural information and modern farming support.  
 The platform bridges the gap between **technology and agriculture**, making essential data accessible, simple, and actionable for farmers.
