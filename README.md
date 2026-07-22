@@ -43,7 +43,7 @@ The platform is designed to be **simple, user-friendly, and accessible** to farm
 - 🌐 **Multi-language Support** – English & Hindi  
 - 📱 **Responsive Design** – Optimized for mobile and desktop  
 
----
+----
 
 ## 👥 User Roles
 
