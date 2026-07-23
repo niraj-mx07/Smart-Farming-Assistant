@@ -31,7 +31,7 @@ These issues reduce profitability and make farming decisions risky and inefficie
 
 The platform is designed to be **simple, user-friendly, and accessible** to farmers.
 
----
+----
 
 ## ✨ Key Features 🚀
 
